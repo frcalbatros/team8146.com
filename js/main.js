@@ -152,6 +152,4 @@ if (localStorage.getItem("dark") == "true") {
     darkmode();
 } else if (localStorage.getItem("dark") == "false") {
     lightmode();
-} else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
-    darkmode();
 }
